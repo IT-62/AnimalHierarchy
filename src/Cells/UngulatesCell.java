@@ -2,10 +2,10 @@ package Cells;
 
 import Animals.Ungulates;
 
-public abstract class UngulatesCell<T extends Ungulates> extends Cell<T>{
+public class UngulatesCell<T extends Ungulates> extends MammalCell<T>{
 
-    public UngulatesCell(int quantityOfPlaces) {
-        super(quantityOfPlaces);
+    public UngulatesCell(int quantityOfPlaces, int quantityOfBowls) {
+        super(quantityOfPlaces, quantityOfBowls);
     }
 
 }

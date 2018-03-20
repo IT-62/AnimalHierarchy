@@ -6,9 +6,9 @@ public abstract class Animal {
     private String classification;
     private int age;
 
-    public Animal (String name, String breed, int age) {
+    public Animal (String name, String classification, int age) {
         this.name = name;
-        this.classification = breed;
+        this.classification = classification;
         this.age = age;
     }
 

@@ -2,7 +2,7 @@ package Cells;
 
 import Animals.Bird;
 
-public abstract class BirdCell<T extends Bird> extends Cell<T>{
+public class BirdCell<T extends Bird> extends Cell<T> {
 
     private int quantityOfNests;
 

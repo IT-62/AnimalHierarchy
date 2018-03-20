@@ -4,8 +4,8 @@ public abstract class Ungulates extends Mammal {
 
     private int fingersInHoof;
 
-    public Ungulates(String name, String breed, int age, int feedingPeriod, int fingersInHoof) {
-        super(name, breed, age, feedingPeriod);
+    public Ungulates(String name, String classification, int age, int feedingPeriod, int fingersInHoof) {
+        super(name, classification, age, feedingPeriod);
         this.fingersInHoof = fingersInHoof;
     }
 
